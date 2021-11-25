@@ -1,18 +1,22 @@
 /* Basic Style */
+
 .page {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header__image {
   width: 100%;
 }
+
 .header__link {
   font-family: fantasy, cursive;
 }
@@ -24,28 +28,34 @@
   }
 
 }
+
 .main-part {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task-row-wrapper__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .task-row-wrapper {
   display: flex;
   margin-top: 20px;
 }
+
 .tasks-list {
   margin: 0;
   padding: 0px;
 }
+
 .tasks-list__item,
 .section__header {
   list-style: none;
 }
+
 input,
 button {
   outline: none;
@@ -64,7 +74,9 @@ button {
 .button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
+
 .section__header {
   color: #333;
   font-weight: 700;
@@ -74,6 +86,7 @@ button {
   margin: 0;
   text-transform: uppercase;
 }
+
 .task-row-wrapper__input,
 .tasks-list__input {
   margin: 0;
@@ -87,16 +100,19 @@ button {
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .tasks-list__input:focus {
   color: #333;
 }
 
 /* New Task */
+
 .task-row-wrapper__input {
   width: 318px;
 }
 
 /* Task list */
+
 .tasks-list__item {
   overflow: hidden;
   padding: 20px 0;
@@ -105,6 +121,7 @@ button {
   justify-content: space-between;
   align-items: center;
 }
+
 .tasks-list__item > * {
   vertical-align: middle;
 }
@@ -112,31 +129,37 @@ button {
 .tasks-list__checkbox {
   margin: 0 10px;
 }
+
 .tasks-list__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .tasks-list__input {
   width: 226px;
 }
+
 .button_delete .button__image {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .button_delete .button__image {
   transform: rotateZ(0);
 }
 
 /* Completed */
+
 .tasks-list_completed .tasks-list__label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
+
 .tasks-list__input {
   display: none;
 }
