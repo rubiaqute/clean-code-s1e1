@@ -147,7 +147,7 @@ button {
   transition: transform 200ms ease-in;
 }
 
-.button_delete .button__image {
+.button_delete .button__image:hover {
   transform: rotateZ(0);
 }
 
