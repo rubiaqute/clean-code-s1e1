@@ -29,7 +29,9 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.task-row-wrapper__input {
+.task-row-wrapper__input,
+.tasks-list__label,
+.tasks-list__item_editmode .tasks-list__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -126,7 +128,7 @@ button {
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.button_delete .button__image {
+.button_delete .button__image:hover {
   transform: rotateZ(0);
 }
 
